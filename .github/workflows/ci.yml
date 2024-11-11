@@ -21,7 +21,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the Node.js version required for your React project
+          node-version: '18'  # Specify the Node.js version required for your React project
 
       # Step 3: Install dependencies
       - name: Install dependencies
